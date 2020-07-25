@@ -1,0 +1,30 @@
+<testsuites name="jest tests" tests="2" failures="2" time="1.339">
+  <testsuite name="undefined" errors="0" failures="2" skipped="0" timestamp="2020-07-22T15:58:20" time="1.339" tests="2">
+    <testcase classname=" App renders correctly" name=" App renders correctly" time="0.022">
+      <failure>Error: expect(element).toBeDisabled()
+
+Received element is not disabled:
+  &lt;button class=&quot;small outlined&quot; data-testid=&quot;button-restart&quot; /&gt;
+    at Object.&lt;anonymous&gt; (/Users/ameeniga/Downloads/68_bb_2f57_3c1d_46af_8d75_84f0a70dfeac_master/src/App.test.js:34:25)
+    at Object.asyncJestTest (/Users/ameeniga/Downloads/68_bb_2f57_3c1d_46af_8d75_84f0a70dfeac_master/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/ameeniga/Downloads/68_bb_2f57_3c1d_46af_8d75_84f0a70dfeac_master/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/ameeniga/Downloads/68_bb_2f57_3c1d_46af_8d75_84f0a70dfeac_master/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/ameeniga/Downloads/68_bb_2f57_3c1d_46af_8d75_84f0a70dfeac_master/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname=" Switching between slides works as expected" name=" Switching between slides works as expected" time="0.018">
+      <failure>Error: expect(element).toBeDisabled()
+
+Received element is not disabled:
+  &lt;button class=&quot;small outlined&quot; data-testid=&quot;button-restart&quot; /&gt;
+    at Object.&lt;anonymous&gt; (/Users/ameeniga/Downloads/68_bb_2f57_3c1d_46af_8d75_84f0a70dfeac_master/src/App.test.js:85:29)
+    at Object.asyncJestTest (/Users/ameeniga/Downloads/68_bb_2f57_3c1d_46af_8d75_84f0a70dfeac_master/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/ameeniga/Downloads/68_bb_2f57_3c1d_46af_8d75_84f0a70dfeac_master/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/ameeniga/Downloads/68_bb_2f57_3c1d_46af_8d75_84f0a70dfeac_master/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/ameeniga/Downloads/68_bb_2f57_3c1d_46af_8d75_84f0a70dfeac_master/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
